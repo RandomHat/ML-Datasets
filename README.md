@@ -6,9 +6,11 @@ To make the download smaller each dataset has its own branch. just clone the rep
 The purpose of this repo is to make it easier to upload to datasets to google colab.
 
 ```
-!git clone https://github.com/RandomHat/ML-Datasets/
-!git checkout $BRANCH_NAME
-!git pull
+!git clone --single-branch --branch BRANCHNAME https://github.com/career-karma-tutorials/ck-git
+ 
+eg.
+!git clone --single-branch --branch fingers https://github.com/career-karma-tutorials/ck-git
+
 ```
 
 ### Finger Numbers 
